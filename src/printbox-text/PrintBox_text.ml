@@ -271,8 +271,8 @@ end = struct
   }
 
   type display_connections = {
-    mutable nontree: display_conn_basic;
-    mutable tree: display_conn_basic;
+    nontree: display_conn_basic;
+    tree: display_conn_basic;
   }
 
   let init_connection () = {

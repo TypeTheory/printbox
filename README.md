@@ -199,7 +199,7 @@ some text ┌─┬─┐
       [text_with_style style "a\nb";
        line_with_style Style.(set_bold true @@ bg_color Green) "OH!"];
       [text "c"; text "ballot"];
-    ])
+    ]);;
 val b3 : PrintBox.t = <abstr>
 utop [1]: print_endline @@ PrintBox_text.to_string b3;;
 ```
